@@ -10,7 +10,8 @@ library. By default this `codesample` plugin supports the same languages as the 
 the list of available languages via [`codesample_languages`](https://www.tinymce.com/docs/plugins/codesample/#codesample_languages)
 option. Note that, unlike the official plugin, this plugin does not include any PrismJS components of its own
 and you need to include the necessary links to `prism.js` and `prism.css` with all language definitions
-that you want to support.
+that you want to support. The plugin also allows to enable and disable line numbers in code samples (requires Prism.js
+**Line Numbers** plugin).
 
 ## preview
 
